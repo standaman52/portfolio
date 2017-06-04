@@ -1,14 +1,115 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Stanley Gorman</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js" type="text/javascript">
+<head>
+  <meta charset="utf-8">
+  <title>Stanley Gorman</title>
+  <link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="app.js" type="text/javascript">
+  <link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
 
-    </script>
-  </head>
-  <body>
+  <div id="canvas" class="main-container">
+    <nav>
+      <ul>
+        <li id="logo">
+          <h1>SG</h1>
+        </li>
+        <li>
+          <a href="#headline4">Contact</a>
+        </li>
+        <li>
+          <a href="#headline3">Portolio</a>
+        </li>
+        <li>
+          <a href="#headline2">Skills</a>
+        </li>
+        <li>
+          <a href="#headline1"><span id ="aboutMe">About</span></a>
+        </li>
 
-  </body>
+      </ul>
+    </nav>
+    <div class="welcomePage">
+        <p id ="welcome">WELCOME TO MY WORLD</p>
+        <h1 id="myName">STANLEY GORMAN</h1>
+        <p id="changeText"></p>
+        <p id="learnMore">Learn More</p>
+      <a class="fa" href="#headline1"><i class="fa fa-angle-double-down" style="font-size:50px"></i></a>
+    </div>
+
+    <!--================================================================  -->
+
+
+
+  <div class="headline1">
+      <h1><a name="headline1">About Me</a></h1>
+      <p class="aboutmeHeader">Who</p>
+
+      <p class="aboutmebody">Hello, I'm Stanley Gorman. A Full-Stack web Developer at Booz Allen Hamilton. I am very passionate about technology and also learning new languages to keep me up to date </p>
+      <p class="aboutmeHeader">What I do</p>
+      <p class="aboutmebody">I build software applications that help solve bussiness problems.</p>
+      <p class="aboutmeHeader">Free Time</p>
+      <p class="aboutmebody">In my free time, I enjoy playing soccer, video games and hanging out with my family</p>
+
+  </div>
+
+
+
+    	    <div class="headline2">
+    	    	<h1><a name="headline2">Skills</a></h1>
+              <p class="aboutmeHeader">Programming Language</p>
+            <p class="aboutmebody">HTML, CSS, JavaScript, jQuery, Bootstrap
+            </p>
+            <p class="aboutmebody">Ruby, Rails, AngularJs and MVC </p>
+            <p class="aboutmebody">APIS with Node.JS, AJAX, JSON </p>
+            <p class="aboutmebody">Visual Basics and PHP </p>
+
+            <p class="aboutmeHeader">Databases</p>
+            <p class="aboutmebody">MySQL,MS Access, MS SQL Server </p>
+            <p class="aboutmebody">MongoDB, NoSQL Data Modeling</p>
+
+            <p class="aboutmeHeader">Productivity</p>
+            <p class="aboutmebody">MS Office, MS Visio, MS Project & Atom
+            </p>
+            <a target="_blank" href="StanleyResume.pdf"><button class="btn" type="button" name="button">View Resume</button>
+    	    </div></a>
+
+
+
+
+          <div   class="headline3">
+    	    	<h1><a name="headline3">Portfolio</a></h1>
+            <div class="img">
+              <a target="_blank" href="https://cryptic-atoll-40409.herokuapp.com/#!/"><img src="foodapp.png" alt=""></a>
+      	    	<a target="_blank" href="https://online-exam-app-frontend.herokuapp.com/"><img src="quizPrep.png" alt=""></a>
+      	    	 <a target="_blank" href="https://sheltered-caverns-41035.herokuapp.com/"><img src="shoeappp.png" alt=""></a>
+      	    	<a target="_blank" href="https://sports-events.herokuapp.com/"><img src="sportseventapp.png" alt=""></a>
+            </div>
+
+    	    </div>
+
+    	    <div class="headline4">
+    	    	<h1><a name="headline4">Contact</a></h1>
+              <ul class="contactUs"><a target="_blank" href="https://github.com/standaman52">
+                <i id="github"class="fa fa-github" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/stanley-gorman-827973105/">
+                <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+              </ul>
+              <small>Stanley Gorman @WDIR Hopper Graduate</small>
+    	    </div>
+
+  </div>
+
+
+  </div>
+
+</body>
 </html>
